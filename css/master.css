@@ -1,0 +1,61 @@
+body {
+  background-color: beige;
+}
+
+.container {
+  width: 1200px;
+}
+
+.heading {
+
+}
+
+.name {
+  float: left;
+  clear:
+}
+
+.contact {
+ float: right;
+ margin-right: 10px;
+}
+
+.about {
+  float: right;
+  margin-right: 10px;
+}
+
+.work {
+  float: right;
+  margin-right: 10px;
+}
+
+.image {
+  clear: both;
+  text-align: center;
+}
+
+#image {
+  width: 650px;
+}
+
+.content {
+  width: 40%;
+  float: left;
+  margin: 5%;
+}
+
+.photos {
+  width: 40%;
+  float: right;
+  margin: 5%;
+}
+ #icons {
+   margin-left: 5%;
+ }
+.icons {
+  display: inline;
+  float: left;
+  width: 30px;
+  margin: 5px;
+}
