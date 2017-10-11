@@ -1,9 +1,13 @@
 body {
-  background-color: beige;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+  background-color: black;
+  color: white;
 }
 
 .container {
   width: 1200px;
+  margin-left: 10%;
 }
 
 .heading {
@@ -11,51 +15,82 @@ body {
 }
 
 .name {
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+   2px 2px 15px white;
+  font-size: 60px;
   float: left;
   clear:
 }
 
 .contact {
  float: right;
- margin-right: 10px;
+ margin-right: 20px;
 }
 
 .about {
   float: right;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .work {
   float: right;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .image {
+  width: 650px;
+  height: 650px;
+  background-image: url("../img/profile.jpeg");
+  background-size: cover;
   clear: both;
-  text-align: center;
+  margin: auto auto;
+  box-shadow: 0px 0px 50px 50px black inset;
+
 }
 
-#image {
+/*#image {
   width: 650px;
-}
+  box-shadow: 0px 0px 28px 28px black inset;
+}*/
 
 .content {
   width: 40%;
   float: left;
-  margin: 5%;
+  margin-top: 30px;
+  margin-left: 5%;
+  padding: 5px;
+  border: 1px dotted white;
 }
 
 .photos {
   width: 40%;
   float: right;
-  margin: 5%;
+  margin-top: 30px;
+  margin-right: 5%;
+  padding: 5px;
+  border: 1px dotted white;
 }
  #icons {
    margin-left: 5%;
+   clear: both;
  }
 .icons {
   display: inline;
   float: left;
   width: 30px;
   margin: 5px;
+  background-color: white;
+}
+
+#btn {
+  clear: both;
+  float: left;
+  margin-left: 10%;
+  border: 2px solid black;
+  padding: 5px;
+
+
 }
